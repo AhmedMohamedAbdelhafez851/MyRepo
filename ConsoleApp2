@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            //Write a C# program to check if an integer (from the two given integers)
+            //is in the range -10 to 10
+              bool Test(int num1)
+            {
+               if (num1 < 10 && num1 > -10)
+                    return true;
+                else
+                    return false;
+
+            }
+            Test(10);
+            
+
+        }
+
+
+    }
+    }
+
